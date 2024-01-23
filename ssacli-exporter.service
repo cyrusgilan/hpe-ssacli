@@ -1,0 +1,8 @@
+[Unit]
+Description=Prometheus exporter for HP smart array
+
+[Service]
+ExecStart=/usr/sbin/ssacli-exporter
+
+[Install]
+WantedBy=default.target
